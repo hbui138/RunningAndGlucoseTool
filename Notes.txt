@@ -1,0 +1,52 @@
+The main motivation in this study is to find out potential cases how to support patients with diabetes in
+their everyday lives. Especially, focusing on the effect of physical exercise on the glucose level: can
+we create an alarm system that would warn if the exercise is heavy and a patient may need a snack. 
+To accomplish this, you need to take these steps:
+
+1.	Try to get an understanding of what is a normal glucose time series for diabetic and healthy people. 
+Select five of each with similar background information and find Monday-Tuesday time spans and plot them.
+
+2.	Figure out, how to get a daily exercise pattern automatically: is it a time how much each activity 
+type was done daily? Can you find this way people, who have had harder exercise at some point of the 
+measurement period, and thus, they are the most interesting ones.
+
+3.	Try to find some literature to support the hypothesis: how the exercise affects the blood glucose and 
+what kind of research there is on this topic.
+
+--------------------------
+So far:
+4 groups: 
+- Pre diabetes lifestyle controlled
+- Healthy
+- Oral medication or non-insulin injectable medication controlled
+- Insulin dependent
+
+About BMI
+Underweight (Severe thinness)	< 16.0
+Underweight (Moderate thinness)	16.0–16.9
+Underweight (Mild thinness)	17.0–18.4
+Normal range	18.5–24.9
+Overweight (Pre-obese)	25.0–29.9
+Obese (Class I)	30.0–34.9
+Obese (Class II)	35.0–39.9
+Obese (Class III)	≥ 40.0
+
+
+----------------------------
+TODO:
+
+- Get categories of avtivity names:
+                # "activity_name": "",
+                # "activity_name": "generic",
+                # "activity_name": "running",
+                # "activity_name": "sedentary",
+                # "activity_name": "walking",
+
+- Check how many people are obese in each group using BMI
+- Make a function to select a number of patients from each group with similar background (age, BMI)
+- Check their activity rate from a specific dates (can make a slider to change chosen timeframe)
+- Compare 
+
+
+Method: Select X sample from each group with similar background. Plot their glucose during specific 
+timestamp

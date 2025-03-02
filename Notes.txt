@@ -15,7 +15,7 @@ what kind of research there is on this topic.
 
 --------------------------
 So far:
-4 groups: 
+4 groups: For now ok to combine
 - Pre diabetes lifestyle controlled
 - Healthy
 - Oral medication or non-insulin injectable medication controlled
@@ -32,6 +32,10 @@ Obese (Class II)	35.0–39.9
 Obese (Class III)	≥ 40.0
 
 
+Age range from 55-65 since it is the age range that most people first get diabetes
+Age range from 35-45 seems to be the most active with activity
+
+Can choose both to compare (priority 55-65)
 ----------------------------
 TODO:
 
@@ -42,11 +46,54 @@ TODO:
                 # "activity_name": "sedentary",
                 # "activity_name": "walking",
 
+Select from each study group some patients who are most active and see compare their glucose level on day 
+they do activities compare to other days (label first then steps) (how long it takes) (Can label running 
+as 1 and other activities as 0 and find time where consecutive running occur. Can tolerate 15-30 mins 
+disruption)
+
+Narrow the common time for patients instead of using relative time ticks
+
 - Check how many people are obese in each group using BMI
 - Make a function to select a number of patients from each group with similar background (age, BMI)
 - Check their activity rate from a specific dates (can make a slider to change chosen timeframe)
-- Compare 
+- Compare to see average time each person do specific kind of activity
+
+
+- Maybe using simple AI model for prediction (regression (linear, softmax), random forest, decision tree, )
+- Maybe plot to see a threshold for activity that at that threshold, glucose level drop below a specific 
+number. Then when a sensor notice a person doing too much activity (considering category also such as 
+walking, running), it let them know (use average across patients or other methods)
 
 
 Method: Select X sample from each group with similar background. Plot their glucose during specific 
 timestamp
+
+---------------------------------
+- DL: Truoc T3, xong introduction, abstract (Khoang 3 Trang)
+Truoc T4, xong Concept, Methodology (Khoang 6 Trang)
+Truoc T5, xong Result, Conclusion (Khoang 6 Trang)
+Finalize (Khoang 3 Trang)
+Figure voi Reference (Khoang 5 Trang)
+Tong 23 Trang (Co the thay doi)
+
+------------------------------------
+Table of content (for now)
+
+Abstract
+Foreword
+Abbreviations list
+1. Introduction
+2. Dataset
+    2.1. Data domain
+    2.2. Key concepts
+3. Data preprocessing
+    3.1. Data Cleaning and Filtering
+    3.2. Sample grouping
+    3.3. Activity labelling and comparing
+4. Methodology
+    4.1. Statistical Analysis
+    4.2. Activity Threshold Identification
+5. Result
+6. Discussion 
+7. Summary
+8. References

@@ -68,6 +68,23 @@ walking, running), it let them know (use average across patients or other method
 Method: Select X sample from each group with similar background. Plot their glucose during specific 
 timestamp
 
+- Assume running has most effect on glucose (Focus on running only)
+
+
+
+For the activity sessions: Getting the min and max 10 mins before and after 
+
+
+--------------------------------------
+Plan for next meeting: Focus on the model and if something not working, leave it to discussion
+For model:
+    Input: 
+
+About the test, do we care if 2 or more entry is from a same person? Like 2 entry with 1 have higher glucose
+after exercise and 1 with lower but from the same person.
+
+Question: Do we actually consider pre diabetes diabetes? Should we keep old group or not?
+
 ---------------------------------
 - DL: Truoc T3, xong introduction, abstract (Khoang 3 Trang)
 Truoc T4, xong Concept, Methodology (Khoang 6 Trang)
@@ -87,12 +104,12 @@ Abbreviations list
     2.1. Data domain
     2.2. Key concepts
 3. Data preprocessing
-    3.1. Data Cleaning and Filtering
-    3.2. Sample grouping
-    3.3. Activity labelling and comparing
+    3.1. Data overview
+    3.2. Data Cleaning and Filtering
+    3.3. Activity labelling and comparing (running?)
 4. Methodology
-    4.1. Statistical Analysis
-    4.2. Activity Threshold Identification
+    4.1. Building Model
+    4.2. Prediction Model ?
 5. Result
 6. Discussion 
 7. Summary
